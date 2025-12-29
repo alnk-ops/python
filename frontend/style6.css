@@ -1,0 +1,12 @@
+:root{
+    --bg-color:lightblue;
+    --text-color:darkblue;
+    --font-size:20px;
+}
+.box{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+    padding: 20px;
+    width: 250px;
+}

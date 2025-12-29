@@ -1,0 +1,18 @@
+body{
+    background-color: lightgray;
+    padding: 40px;
+
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(173, 219, 72);
+    text-align: center;
+    padding-top: 100px;
+    transition: background-color 2s,transform 2s;
+}
+.box:hover{
+    background-color: rgb(24, 245, 127);
+    /* transform: scale(1.2); */
+    transform: rotate(1450deg);
+}
