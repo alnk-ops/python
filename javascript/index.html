@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <br><br>
+    <!-- inline javascript -->
+    <button onclick="alert('The bulb is turned on!');">On</button>
+    <!-- internal javascript -->
+    <button id="offBtn">Off</button>
+
+    <script>
+        document.getElementById("offBtn").onclick = function() {
+            alert('The bulb is turned off!');
+        }
+        // console.log("Abhijith");
+    </script>
+    
+</body>
+</html>
