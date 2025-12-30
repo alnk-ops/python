@@ -25,11 +25,25 @@
 // console.log((a<c) || (a==c));
 // console.log(!(a<c));
 
-let score = 85;
+let score = 60;
 
 if (score >= 90) {
     console.log("Grade: A");
-} else{
+} else if (score >= 80) {
     console.log("Grade: B");
+} else if (score >= 70) {
+    console.log("Grade: C");
+} else if (score >= 60) {
+    console.log("Grade: D");
 }
 console.log(`Your score is : ${score}`);
+
+let e=20;
+if(e%2==0){
+    console.log("even number");
+}else{
+    console.log("odd number");
+}
+
+console.log(`the number is :${e}`)
+
