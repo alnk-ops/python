@@ -49,9 +49,21 @@ console.log(dog1);
 // },16000);
 
 const output=document.getElementById("Heading").innerHTML = "Hello World!";
+const box=document.querySelector(".Box").innerHTML = "This is a box.";
+const paragraph=document.getElementsByTagName("p")[0].innerHTML = "This is the first paragraph.";
 console.log(output);
+console.log(box);
+console.log(paragraph);
+// document.write("this is the end");
 
-
+function saymyname(){
+    alert("Your name is Haridath");
+}
+function details(){
+    alert("Haridath is a student of ABC school. He loves coding and playing football.");
+}
+let button=document.getElementById("myButton");
+button.addEventListener("click",details);
 
 
 
